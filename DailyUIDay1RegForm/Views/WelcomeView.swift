@@ -28,14 +28,12 @@ struct WelcomeView: View {
                         
                         Text("Please register to continue")
                         
-                        //NavigationLink(destination: RegisterView()) {
-                        Button(action: {}, label: {
+                        NavigationLink(destination: RegisterView()) {
                             Text("Register")
                                 .font(.system(size: 20))
                                 .frame(width: 250, height: 60)
                                 .background(RoundedRectangle(cornerRadius: 30).fill(Color(#colorLiteral(red: 0.9938417077, green: 0.6875110865, blue: 0.5313872099, alpha: 1))))
-                        })
-                        //}
+                        }
                         .padding(.top, 32)
                         
                         HaveAnAccountView(text: "Already a user?", buttonTitle: "Login now")

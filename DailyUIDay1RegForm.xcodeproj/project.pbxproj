@@ -19,6 +19,8 @@
 		64E07BC8250DA1EE00C9C964 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E07BC7250DA1EE00C9C964 /* CustomNavigationView.swift */; };
 		64E07BCA250DA1FA00C9C964 /* HaveAnAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E07BC9250DA1FA00C9C964 /* HaveAnAccountView.swift */; };
 		64E07BCC250DA31500C9C964 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E07BCB250DA31500C9C964 /* README.md */; };
+		64E7E4FB250EC3150052064E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7E4FA250EC3150052064E /* RegisterView.swift */; };
+		64E7E4FD250EC3270052064E /* LoginSocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7E4FC250EC3260052064E /* LoginSocialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		64E07BC7250DA1EE00C9C964 /* CustomNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		64E07BC9250DA1FA00C9C964 /* HaveAnAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveAnAccountView.swift; sourceTree = "<group>"; };
 		64E07BCB250DA31500C9C964 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64E7E4FA250EC3150052064E /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		64E7E4FC250EC3260052064E /* LoginSocialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSocialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		64E07BBE250DA14F00C9C964 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64E7E4FA250EC3150052064E /* RegisterView.swift */,
+				64E7E4FC250EC3260052064E /* LoginSocialView.swift */,
 				64E07BC1250DA19C00C9C964 /* WelcomeView.swift */,
 				64E07BC9250DA1FA00C9C964 /* HaveAnAccountView.swift */,
 				64E07BC7250DA1EE00C9C964 /* CustomNavigationView.swift */,
@@ -172,8 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E7E4FB250EC3150052064E /* RegisterView.swift in Sources */,
 				64E07BC4250DA1AF00C9C964 /* BackgroundView.swift in Sources */,
 				64E07BAB250DA14400C9C964 /* AppDelegate.swift in Sources */,
+				64E7E4FD250EC3270052064E /* LoginSocialView.swift in Sources */,
 				64E07BAD250DA14400C9C964 /* SceneDelegate.swift in Sources */,
 				64E07BC8250DA1EE00C9C964 /* CustomNavigationView.swift in Sources */,
 				64E07BC0250DA18900C9C964 /* ContentView.swift in Sources */,
